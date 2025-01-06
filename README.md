@@ -19,3 +19,21 @@ This repository is all about the cool clock that was made by using HTML 5, CSS 3
 <ins> HTML Structure </ins>
 
 1. Contains elements for displaying hours, minutes, and seconds.
+
+2. Uses 'div' elements and 'SVG' for progress circles.
+
+3. Includes an AM/PM indicator.
+
+<ins> CSS Styling </ins>
+
+1. Styles the circles and defines animation behaviours.
+
+2. Uses custom properties ('--clr') for easy color adjustments.
+
+<ins> Javascript Functionality </ins>
+
+1. Fetches the current time using the 'Date' object.
+
+2. Updates the clock every second with 'setInterval()'.
+
+3. Adjusts the circular progress and text values in real-time.
